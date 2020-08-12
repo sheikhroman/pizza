@@ -1,0 +1,381 @@
+@import url('https://googleapis.com/css2?family=Source+Sans+Pro:wght@200')
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: Source Sans Pro, sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+	font-family: Source Sans Pro, sans-serif;
+}
+/********************
+	 **All CSS**
+********************/
+/************************
+	  Header-section css
+*************************/
+.header-section .logo{
+	padding-left: 30px;
+}
+.header-section{
+	width: 100%;
+	background-size: cover;
+}
+.header-section .top-header{
+	width: 100%;
+	background: #eaeaea;
+}
+.header-section .top-header .top-info{
+	display: block;
+	padding-right: 380px;
+	text-align: right;
+}
+.header-section .top-header .top-info li{
+	list-style: none;
+	display: inline-block;
+}
+.header-section .top-header .top-info li a{
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 600;
+	color: #484848;
+	margin-right: 10px;
+}
+.header-section .top-header .top-info  li a i{
+	padding-top: 20px;
+	margin-right: 5px;
+}
+.header-section .social-info{
+	width: 100%;
+	padding-right: 30px;
+	background: #eaeaea;
+	display: inline-block;
+}
+.header-section .top-header .social-info{
+	display: block;
+	padding-right: 390px;
+	text-align: right;
+}
+.header-section .top-header .social-info li{
+	list-style: none;
+	display: inline-block;
+}
+.header-section .top-header .social-info li a{
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #484848;
+	margin-right: 10px;
+}
+.header-section .top-header .social-info ul li i{
+	margin-right: 5px;
+}
+.header-section .main-menu{
+	width: 100%;
+	padding-left: 30px;
+	background: #eaeaea;
+}
+.main-menu .navber .navber-brand{
+	padding-top: 40px;
+}
+.main-menu .navbar-light .navbar-nav .active>.nav-link{
+	color: #484848;
+}
+
+.main-menu  .navber .bg-light {
+    background-color: #08c;
+}
+.main-menu .navbar-light .navbar-nav .nav-link{
+	color: #484848;
+	font-weight: 600;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+.main-menu .navbar-light .navbar-nav{
+	margin-left: 300px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover{
+	color: #f79826;
+}
+
+/*****************
+	Header End
+******************/
+
+
+/*******************
+  slider css start
+*******************/
+.slider{
+	width: 100%;
+	padding: 50px 40px;
+	background: url(../images/b1.png) center top no-repeat;
+}
+.slider .stext{
+	color: #ffffff;
+	padding: 50px 50px;
+}
+.slider .stext h2{
+	text-align: right;
+	font-size: 44px;
+	line-height: 48px;
+	font-weight: 700;
+
+}
+.slider .stext h6{
+	padding-top: 10px;
+	margin-left: 140px;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 1px;
+	font-weight: 500;
+
+}
+.slider .stext button{
+	padding: 10px;
+	margin-left: 140px;
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 600;
+	color: #ffffff;
+	background: transparent;
+	border: #fff 1px solid;
+	border-radius: 2px;
+}
+.slider .stext button:hover{
+	color: #eaeaea; 
+	background: #484848;
+}
+/*******************
+  slider css end
+*******************/
+/*******************
+product css start
+**********************/
+.product{
+	width: 100%;
+	padding: 10px;
+	background: #eaeaea;
+}
+.product .how{
+	padding-top: 30px;
+	text-align: center;
+}
+.product .how h1{
+	font-size: 40px;
+	line-height: 48px;
+	font-weight: 700;
+	color: #000;
+}
+.product .how h6{
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 300;
+	color: #959595;
+}
+.product .how h3{
+	font-size: 74px;
+	line-height: 78px;
+	font-weight: 700;
+	color: #f7941d;
+}
+.product .how p{
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 600;
+	color: #000;
+}
+.product .how h2{
+	font-size: 60px;
+	line-height: 64px;
+	font-weight: 700;
+	color: #000;	
+}
+/*********Creat********/
+.product .creat{
+	padding: 10px;
+	text-align: center;
+}
+.product .creat h2{
+
+	font-size: 74px;
+	line-height: 78px;
+	font-weight: 700;
+	color: #f7941d;	
+}
+.product .creat h1{
+	font-size: 48px;
+	line-height: 52px;
+	font-weight: 700;
+	color: #000;	
+}
+.product .creat p{
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 600;
+	color: #000;
+}
+.product .pizza{
+	background: url(../images/aa.png) center top no-repeat;
+	padding-top: 40px;
+}
+.product .pizza h4{
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #000;
+}
+.product .pizza h4:hover{
+	color: #f7941d;
+}
+.product .legend{
+	width: 100%;
+	padding: 30px;
+	text-align: center;
+	background: url(../images/le.png)center top no-repeat;
+}
+.product .legend h4{
+	font-size: 28px;
+	line-height: 32px;
+	font-weight: 600;
+	color: #fff;
+}
+/*******************
+product css end
+**********************/
+/********************
+frature css start
+*********************/
+.frature{
+	width: 100%;
+	padding: 20px;
+	background: url(../images/b1.png) center top no-repeat;
+}
+.frature .fea{
+	padding: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+.frature .fea h2{
+	font-size: 42px;
+	line-height: 46px;
+	font-weight: 600;	
+}
+.frature .fea p{
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 500;	
+}
+.frature .fea .proslider{
+	padding: 30px;
+}
+.frature .fea .proslider a{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+}
+.frature .fea .proslider a{
+	background: transparent;
+	color: #fff;
+}
+.frature .fea .proslider a:hover{
+	background: #ffffff;
+	color: #000;
+}
+/********************
+frature css end
+*********************/
+/**********************
+   Fotter css start
+***********************/
+.fotter{
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	background: #eaeaea;
+}
+.fotter p{
+	padding-top: 20px;
+	font-size: 18px;
+	line-height: 16px;
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+/**********************
+   Fotter css end
+***********************/
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  //CSS
+  
+}
